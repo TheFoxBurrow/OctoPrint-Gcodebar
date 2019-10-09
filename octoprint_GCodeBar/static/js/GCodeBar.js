@@ -18,7 +18,7 @@ $(function() {
         }
 
         self.sendCommand = function() {
-            console.log("Hello SendCommand " + self.commandString());            
+            console.log("Hello SendCommand " + "M81 192.168.178.41");            
             var splitCommands = self.commandString().split(";");     
             var len = splitCommands.length;
             for(var i=0;i<len;i++){
